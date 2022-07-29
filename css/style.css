@@ -1,7 +1,91 @@
+/* css reset */
 body {
+    
     font-family: 'Baloo Bhai', cursive;
-    color: white;
+    font-size: smaller;
+    color: rgb(246, 246, 246);
     margin: 0px;
     padding: 0px;
-    background: url('images/bg.jpg');
+    background: url('../images/bg-man.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 25%;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 14px;
+}
+
+.left img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 20px;
+    font-size: 18px;
+    /* text-align: center; */
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 25px auto;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 28px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
 }
