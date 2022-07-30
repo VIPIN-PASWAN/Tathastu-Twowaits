@@ -32,6 +32,7 @@ body {
 .left div {
     line-height: 20px;
     font-size: 18px;
+    /* color: rgb(59, 255, 131); */
     /* text-align: center; */
 }
 
@@ -89,3 +90,64 @@ body {
 .btn:hover {
     background-color: rgb(31, 30, 30);
 }
+
+.container, .abt-container , .cal-container {
+    border: 2px solid rgb(240, 240, 240);
+    margin: 5% 10%;
+    padding: 3%;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input , .form-control, textarea{
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 75%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    color: grey;
+}
+
+ .form-control:focus{
+color: gray;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.con-container{
+    position: relative;
+    margin: 5% auto;
+    padding: 3% 0%;
+    text-align: center;
+    border: 2px solid rgb(240, 240, 240);
+    width: 33%;
+    border-radius: 28px;
+}
+
+.cal-container p, input {
+margin: 2% 0%;
+padding: 0%;
+}
+
+@media (max-width: 480px) {
+
+    .body{
+        font-size: x-small;
+    }
+
+    .container  , .abt-container, .cal-container, .con-container{
+        width: 80%;
+    }
+  }
